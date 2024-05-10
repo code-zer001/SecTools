@@ -20,6 +20,7 @@ def addKaliRepository():
             sources.write("deb http://http.kali.org/kali kali-rolling main non-free contrib")
             os.system("apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ED444FF07D8D0BF6")
         os.system("apt update")
+        os.system("apt autoremove --purge")
         print("Kali sources added")
 def installCommand(category,tool):
     if category == "InformationGathering":
