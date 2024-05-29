@@ -4,17 +4,20 @@ SECTOOLS is a handy script that makes it easy to install pentesting tools from K
 
 If you're new to cybersecurity and pentesting, you can quickly get started by installing the most commonly used tools provided in the script.
 
+# Installation
+
+Clone the repository :
+
+    git clone https://github.com/code-zer001/SecTools.git
+
+Download dependencies:
+
+    pip3 install colorama subprocess
+
 # USAGE
-
-Recommended to use python3
-
-$ pip3 install subprocess os colorama
-
-After the above command,
-
-Run the following commands (Ensure you are in the SecTools directory)
-
-$ sudo python3 SecTools.py
+To run the script:
+    
+    $ sudo python3 SecTools.py
 
 If you are running it for first time select option 1
 
