@@ -13,7 +13,6 @@ def check_sources():
 def addKaliRepository():
     if check_sources():
             print(Fore.BLUE + "Kali sources already exist. Run the script again and install the tools")
-
     else:
         print("Adding Kali sources")
         with open("/etc/apt/sources.list", "a") as sources:
