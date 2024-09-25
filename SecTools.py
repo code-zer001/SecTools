@@ -29,7 +29,7 @@ def installCommand(category,tool):
          subprocess.call('apt install -y '+VulnerabilityAnalysis[tool-1], shell=True)
     elif category == "PasswordAttacks":
          subprocess.call('apt install -y '+PasswordAttacks[tool-1], shell=True)
-    elif category == Forensics:
+    elif category == "Forensics":
          subprocess.call('apt install -y '+Forensics[tool-1], shell=True)
     elif category == "WebApplicationAnalysis":
          subprocess.call('apt install -y '+WebApplicationAnalysis[tool-1], shell=True)
